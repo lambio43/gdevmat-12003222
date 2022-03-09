@@ -11,7 +11,6 @@ public class Walker
  float x = mouseX - Window.windowWidth ;
  float y = -(mouseY - Window.windowHeight);
  return new PVector(x, y);
- 
 }
 
 void followMouse()
