@@ -11,7 +11,7 @@ void setup()
   {
    newtonWalkers[i]  = new Walker(i+1); 
    newtonWalkers[i].position = new PVector(-500,200);
-   newtonWalkers[i].scale = newtonWalkers[i].mass *= 15;
+   newtonWalkers[i].scale = newtonWalkers[i].mass * 15;
   }
 } 
 

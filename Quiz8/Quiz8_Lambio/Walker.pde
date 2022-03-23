@@ -22,7 +22,6 @@ public class Walker
   
    public void update()
   {
-   //this.acceleration = PVector.random2D();
    this.velocity.add(this.acceleration); // velocity accumulation
    this.velocity.limit(velocityLimit);
    this.position.add(this.velocity); 
